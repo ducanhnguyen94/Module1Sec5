@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Co Ban</title>
+</head>
+<body>
+    <form action="simpleform.html" method="get">
+        <h1>Order Form</h1>
+        <fieldset>
+            <legend>What would you like to buy?</legend>
+            <select name="Item" id="Item">
+                <option value="A">A</option>
+                <option value="B">B (+ 0.5$)</option>
+                <option value="C">C (+ 0.5$)</option>
+                <option value="D">D (+ 0.5$)</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>How many would you like to order?</legend>
+            <input type="radio" name="rd"> 1 - $10
+            <input type="radio" name="rd"> 2 - $20
+            <input type="radio" name="rd"> 3 - $25
+        </fieldset>
+        <fieldset>
+            <legend>Name <span style="color: red">*</span></legend>
+                <input type="text" placeholder="FirstName" name="FirstName" required>
+                <input type="text" placeholder="LastName" name="LastName" required>
+            <legend>Email</legend>
+                <input type="email">
+            <legend>Phone Number</legend>
+                <input type="text" name="phone1" size="5"> -
+                <input type="text" name="phone2" size="5"> -
+                <input type="text" name="phone3" size="5">
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
