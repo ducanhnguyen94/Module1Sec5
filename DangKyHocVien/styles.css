@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+form {
+    background-color: rgb(251, 251, 124);
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#header {
+    background-color: rgb(217, 255, 161);
+    color: blue;
+    padding: 2px;
+    font-weight: bold;
+}
+
+p {
+    width: 20%;
+    color: blue;
+}
+
+#info {
+    display: flex;
+    margin-top: 5px;
+}
+
+input, textarea, select {
+    border: 1px solid #dddddd;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+button {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
