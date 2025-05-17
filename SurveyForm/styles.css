@@ -1,0 +1,94 @@
+*, *::before, *::after {
+    margin: 0;
+}
+
+#header {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+#header p {
+    color: #a7a7a7;
+    padding-left: 5px;
+}
+
+.info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price {
+    margin: 10px;
+}
+
+.info p, .price p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info select {
+    width: 300px;
+    font-size: 20px;
+}
+
+label {
+    margin-top: 5px;
+}
+
+#dollar {
+    width: 100px;
+}
+
+#cent {
+    width: 20px;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.rating {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rating th, .rating td {
+    border: 1px solid #dddddd;
+    height: 40px;
+}
+
+.title {
+    font-weight: bold;
+    width: 40%;
+}
+
+.checkbox {
+    text-align: center;
+    width: 15%;
+}
+
+.firstRow {
+    background-color: rgb(166, 166, 166);
+}
+
+.thirdRow {
+    background-color: rgb(215, 215, 215);
+}
+
+button {
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    font-size: 25px;
+    width: 100px;
+}
