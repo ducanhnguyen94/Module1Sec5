@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 350px;
+}
+
+td, th {
+    border: 2px solid black;
+}
+
+th {
+    background-color: yellow;
+}

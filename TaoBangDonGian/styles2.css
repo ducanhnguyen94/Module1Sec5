@@ -1,0 +1,39 @@
+*,*::before,*::after {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.info {
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
