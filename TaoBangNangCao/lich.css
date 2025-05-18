@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    height: 300px;
+}
+
+.redbg {
+    background-color: red;
+    color: white;
+}
+
+.yellowbg {
+    background-color: orange;
+    color: white;
+}
+
+.bluebg {
+    background-color: blue;
+    color: white;
+}
+
+th {
+    border: 1px solid white;
+    width: 75px;
+}
+
+td {
+    border: 2px solid #dddddd;
+}
+
+.duong {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.am {
+    font-size: 10px;
+}
