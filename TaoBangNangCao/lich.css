@@ -8,6 +8,10 @@ table {
     height: 300px;
 }
 
+h1 {
+    color: blue;
+}
+
 .redbg {
     background-color: red;
     color: white;
